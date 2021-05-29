@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dana Story</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <a href="index.html">
+                    <h1>DANA Story</h1>
+                </a>
+            </div>
+            <nav>
+                <ul id="topMenu">
+                    <li><a href="#">학습 진도 <span>▼</span></a>
+                        <ul>
+                          <li><a href="#">학습 목차</a></li>
+                          <li><a href="#">진행 상황</a></li>
+                        </ul>
+                    </li>
+                    <li><a href=#">학습 내용 <span>▼</span></a>
+                        <ul>
+                          <li><a href="#">HTML</a></li>
+                          <li><a href="#">CSS</a></li>
+                          <li><a href="#">JS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">갤러리</a></li>
+                    <li><a href="#">Q&A</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="slideShow">
+            <div id="slides">
+                <img src="images/photo-1.jpg" alt="">
+                <img src="images/photo-2.jpg" alt="">
+                <img src="images/photo-3.jpg" alt="">
+                
+            </div>
+
+        </div>
+        <div id="contents">
+            <div id="tabMenu">
+                <input type="radio" id="tab1" name="tabs" checked>
+                <label for="tab1">공지사항</label>
+                <input type="radio" id="tab2" name="tabs">
+                <label for="tab2">갤러리</label>
+
+                <div id="notice" class="tabContent">
+                    <h2>공지사항 내용입니다.</h2>
+                    <ul>
+                        <li>DANA STORY를 소개합니다.</li>
+                        <li>[이벤트] 오픈 이벤트에 초대합니다.</li>
+                        <li>[참가 모집] 함께 할 스터디원을 모집합니다.</li>
+                        <li>추천 학습사이트</li>
+                        <li>학습자료 오픈</li>
+                    </ul>
+                </div>
+                <div id="gallery" class="tabContent">
+                    <h2>갤러리 내용입니다.</h2>
+                    <ul>
+                        <li><img src="images/img-5.jpg"></li>
+                        <li><img src="images/img-2.jpg"></li>
+                        <li><img src="images/img-3.jpg"></li>
+                        <li><img src="images/img-1.jpg"></li>
+                        <li><img src="images/img-4.jpg"></li>
+                        <li><img src="images/img-6.jpg"></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="links">
+                <ul>
+                    <li>
+                        <a href="#">
+                          <span id="quick-icon1"></span>
+                          <p>HTML</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                          <span id="quick-icon2"></span>
+                          <p>CSS</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span id="quick-icon3"></span>
+                            <p>JavaScript</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <div id="bottomMenu">
+                <ul>
+                    <li><a href="#">DANA 소개</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">학습약관</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+            <div id="sns">
+                <ul>
+                    <li><a href="#"><img src="images/sns-1.png"></a></li>
+                    <li><a href="#"><img src="images/sns-2.png"></a></li>
+                    <li><a href="#"><img src="images/sns-3.png"></a></li>
+                </ul>
+            </div>
+            </div>
+            <div id="company">
+                <p>상품개발팀 DANA</p>
+
+            </div>
+        </footer>
+    </div>
+<script src="js/slideshow.js"></script>
+</body>
+</html>
